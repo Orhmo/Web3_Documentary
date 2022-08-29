@@ -1,0 +1,137 @@
+media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+html,
+body {
+  min-width: 290px;
+  margin:0;
+  padding:0;
+  font-family: Calibri, Arial, Helvetica;
+  background-color: #EEE;
+  line-height: 1.5;
+}
+h1{
+  text-align:centre;
+}
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.0em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#main-doc {
+  /*position: absolute;*/
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+h4{
+  text-align:center;
+  text-size:6;
+}
+
+
+/*Codes*/
+pre{
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 0.7;
+  background-color: #DDD;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+code {
+  font-family: monospace;
+  background-color: #DDD;
+  color: #000;
+  padding: 1px 4px;
+  border-radius: 0px;
+  text-shadow: 0 1px 2px #FFF;
+  box-shadow: 0 1px 2px #000;
+}
+
+/*Image*/
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin:auto;
+}
+#img-div, #image{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  padding:0 4px;
+}
+#img-div img{
+  width:70%;
+  object-fit:cover;
+  margin:auto;
+  padding: 20px 4px;
+  border-radius:10px;
+}
+
+
+
+/*Navigation*/
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: auto;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  display:block;
+  text-align: left;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: Calibri, Verdana;
+  list-style-type:none;
+}
+
+#navbar ul a:visited {
+  color: #44F;
+}
+
+#navbar ul a:hover {
+  box-shadow: 0 2px 2px #777;
+  transform: translateY(-2px);
+  background-color: #EEE;
+}

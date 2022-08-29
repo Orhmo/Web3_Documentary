@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width",initial-scale="1.0"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>
+      Technical Documentation Page
+      </title>
+    </head>
+    <body>
+      <main id="main-doc">
+        <nav id="navbar">
+     <header> <h1>Web3 Documentation</h1>
+       <dl>
+       <ul><a class="nav-link" href="#Introduction">Introduction</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#What_we_know">What we know</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#Web2_vs_Web3">Web2 vs Web3</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#Blockchain">Blockchain</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#Installing_Web3">Installing Web3</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#Smart_Contract">Smart Contract</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#Defi">Defi</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#NFT">NFT</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#DAO">DAO</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#Metaverse">Metaverse</a></ul>
+       <div id='divider'></div>
+       <ul><a class="nav-link" href="#Reference">Reference</a></ul>
+       <div id='divider'></div>
+       </dl>
+       </header>
+       </nav>
+
+        <section class="main-section" id="Introduction">
+          <div id=image>
+          <img id="image" src="Images/Web3.jpg" alt="Web3 image"/>
+            <figcaption id="img-caption"> Michael Jackson</figcaption>
+        </div>
+          <header><h2>Introduction</h2></header>
+          <article>
+            <p>Web3.js is a JavaScript library that communicates over an Ethereum node. It may be the live chain or a locally deployed Ethereum network. It can be used to access data or information about tokens and the ether coin.
+            It can also be used to deploy and set up personal softwares/applications.This library enables you to connect your JavaScript-based frontend to the Ethereum network using HTTP, IPC, and WebSockets. </p>
+          <p> Web3 embraces decentralization and is being built, operated, and owned by its users. Web3 puts power in the hands of individuals rather than corporations.</p>
+          <p><ul> The web3.js library is a collection of modules that contain functionality for the ethereum ecosystem.
+          <li>web3-eth is for the ethereum blockchain and smart contracts.</li>
+          <li>web3-shh is for the whisper protocol, to communicate p2p and broadcast.</li>
+          <li>web3-bzz is for the swarm protocol, the decentralized file storage.</li>
+          <li>web3-utils contains useful helper functions for Dapp developers.</li>
+        </ul></p>
+        </article>
+      </section>
+          <section class="main-section" id="What_we_know">
+            <header><h2>What we know</h2></header>
+            <article>
+              <p>Web3 is the next generation of the World Wide Web. The internet today is built on the client-server model in which the data is hosted on a remote server,
+                which the client – a user – accesses. Web3, on the other hand, uses the peer-to-peer model like the early days of the internet.
+                Peer-to-peer networks have no centralized authorities and work in a decentralized manner. Web3 is a decentralized computing network that uses a blockchain data structure to store information.
+                Blockchain technology and decentralized networks will be more widely used as more people use Web3.
+              </p>
+          </article>
+        </section>
+          <section class="main-section" id="Web2_vs_Web3">
+            <header><h2>Web2 vs Web3</h2></header>
+            <article>
+            <p>Web2 is the current version of the web with which we are familiar, ir refers to the version ofnthe internet known to most of us today
+             It refers to the web that allowed users to not only consume content from the web but also write to it. The era of content creation, with the likes of Facebook, Twitter, and Instagram being the most widely used tools.
+              Web2 has even brought, “content creation”
+           </p>
+            <p>Web3 in the Ethereum context refers to decentralized web/apps majorly built on Blockchain technology.
+            It is the future of the internet. It is the era where users can not only read and write content but also have a say in ownership.
+            Now promoted as the <em> fate of the web</em> this blockchain based web incorprates digital currencies, NFTs, DAOs, and decentralized money where people have
+            a minetary stake in and more command over the web network they have s place with, offering a read/compoe/own rendition of the web.
+          </p>
+             <div id=img-div>
+            <img id="image" src="Images/Web2_vs_Web3.jpg" alt="Web2 vs Web3 image"/>
+          </div>
+          </article>
+        </section>
+          <section class="main-section" id="Blockchain">
+            <header><h2>Blockchain</h2></header>
+          <article>
+            <p>Web3 is an umbrella term for the blockchain space, and the blockchain itself is the technology. Web3 is built on top of the blockchain, the core technology that powers it.  Cryptocurrency is a facility that enables the exchange of value in Web3.</p>
+              <p>You can represent the value—even though not in its entirety a system provides in Web3 by using a cryptocurrency. A cryptocurrency, which can be created by organisations and protocols, represents the value that a system provides.
+              For example, the value of USDC, a stablecoin, was created by the Centre Consortium by providing USD in the bank and giving users USDC as a representation. Matic is a cryptocurrency that belongs to a protocol called Polygon,  which offers scaling services
+              to blockchain technology and it represents the value Polygon is providing to the world.
+            </p>
+          </article>
+        </section>
+          <section class="main-section" id="Installing_Web3">
+            <header><h2>Installing Web3</h2></header>
+            <article>
+            <p>Since Web3.js is a JavaScript library, you can include it in your webpages or in any JS-based framework. To test the functionality, we’re going to run it on a Node.js client.</p>
+            <p>Install Web3.js using this command:</p>
+            <pre><ul>npm: npm install web3</ul>
+                  <ul>yarn: yarn add web3</ul>
+                  <ul>pure js: link the dist/web3.min.js</ul>
+                </pre>
+            <p>After that you need to create a web3 instance and set a provider.</p>
+            <p> Most Ethereum-supported browsers like MetaMask have an EIP-1193 compliant provider available at <code> window.ethereum</code>
+            <p>For web3.js, check <code>Web3.givenProvider</code>
+            <p>If this property is <code>null</code> you should connect to a remote/local node.</p>
+            <p>After installing Web3.js, open your Node console and load it in a variable:</p>
+            <pre><ul>// In Node.js use: const Web3 = require('web3');</ul>
+                   <ul>const web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");</ul>
+                 </pre>
+            <p>Now, let’s check what this variable holds:</p>
+            <div id=img-div>
+                      <img id="image" src="Images/variable.jpg" alt="Web3 image"/>
+                      <img id="image" src="Images/variables2.jpg" alt="Web3 image"/>
+                      <img id="image" src="Images/variables3.jpg" alt="Web3 image"/>
+                    </div>
+            <p>That’s it! now you can use the <code>web3 </code>object.</p>
+          </article>
+        </section>
+          <section class="main-section" id="Smart_Contract">
+            <header><h2>Smart Contract</h2></header>
+          <article>
+            <p>Smart contracts are the byte codes written in Solidity language and compiled on Ethereum Virtual Machines (EVM). Due to these smart contracts, Ethereum allows external apps to build and run on its network.
+              Also known as Web3 contracts, are crucial in today’s blockchain ecosystem. They enable users to interact online via the blockchain and the many dapps in the Web3 realm, once deployed they can not have their codes directly modified abd are coded to perform specific purposes. Further,
+              they set the conditions for decentralized transactions without needing a centralized third-party authority for verification. In other words, Web3 contracts govern the rules of any Web3 agreement.
+            </p>
+            <p>Concepts of this include decentralized financial services (particularly in DeFi protocols), decentralized digital identity, creating NFTs (Non-fungible Tokens) and building DAOs (decentralized autonomous organizations.
+            </p>
+          </article>
+        </section>
+          <section class="main-section" id="Defi">
+            <header><h2>Defi</h2></header>
+          <article>
+            <p>DeFi also known as the crypto's way of Wall Street. DeFi dapps let you swap, invest, earn, lend, borrow and insure financial assets directly with others users
+              without a middleman.
+            </p>
+          </article>
+        </section>
+          <section class="main-section" id="NFT">
+            <header><h2>NFT</h2></header>
+            <article>
+            <p>Also known as Non-fungigible tokens are digital collectibles and other online files that can be bought ans sold with cruptocurrency.
+              They let us tokenise things like art, collectibles even reat estate. They can only have one official owner at a time and they're secured by the Ethereum blockchain </p>
+            <p>Non-fungible is a term used to describe  things are not interchangeable for other items because they have unique properties. Web3 has helped along by the rise of NFTs</p>
+          </article>
+        </section>
+          <section class="main-section" id="DAO">
+            <header><h2>DAO</h2></header>
+            <article>
+              <p>DAO stands for Decentralized autonomous organization, it is a name given for a collective of online crypto supportes
+                 who assemble together collectively in a group groverned by blochains and tokens.
+                 It allows you co-ordinate decentralized ownership of a platform and make decisions about its future.
+               </p>
+          </article>
+        </section>
+          <section class="main-section" id="Metaverse">
+            <header><h2>Metaverse</h2></header>
+            <article>
+              <p>
+                A metaverse Web3 contract allows players to own assets within a game. In addition, you can create metaverse Web3 contracts for non-fungible tokens using the ERC-721 or the ERC-1155 token standard.
+                By integrating Web3 contracts with the vast gaming market, a perfect fit between entertainment and incentives was found. Furthermore, the ability to add tokens as monetary instruments empowers users with multi-platform opportunities arund virtual objectd, tokens and currencies.
+                For example, tokens earned in one Web3 metaverse game can be traded on a DeFi dapp. Moreover, NFTs in gaming create a new economy of unique digital objects that can be traded, bought, or sold in various markets. These would include markets within or outside a game.
+              </p>
+            </article>
+          </section>
+          <section class="main-section" id="Reference">
+            <header><h2>Reference</h2></header>
+            <article>
+              <p>Documentation in this page is taken from <a href="https://moralis.io/what-are-web3-contracts-exploring-smart-contracts/#:~:text=Web3%20contracts%2C%20also%20known%20as,third%2Dparty%20authority%20for%20verification.">moralis</a>
+              </p>
+          </article>
+        </section>
+        </main>
+      </body>
+      <footer>
+        <h4>
+        Written and Coded by -
+        <a href="https://github.com/Orhmo" target="_blank">Orhmo</a>
+      </h4>
+      </footer>
+  </html>
