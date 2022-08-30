@@ -187,6 +187,7 @@ figcaption{
  @media only screen and (max-width: 500px) {
    #main-doc{
      margin-left:-10px;
+     background-color: #EEE;
  }
  code{
    margin-left:-10px;
